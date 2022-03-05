@@ -1,0 +1,16 @@
+[package]
+name = "fbsd-geom-sys"
+version = "0.1.0"
+edition = "2021"
+authors = ["Florian Büstgens <florian.buestgens@efficient-dev.com>"]
+readme = "README.md"
+license = "BSD-2-Clause"
+repository = "https://github.com/fasync/fbsd-geom-sys"
+keywords = ["freebsd", "geom", "ffi", "sys"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+bindgen = { version = "0.55.1", features=[] }
