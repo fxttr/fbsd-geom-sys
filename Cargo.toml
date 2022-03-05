@@ -4,9 +4,11 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Florian Büstgens <florian.buestgens@efficient-dev.com>"]
 readme = "README.md"
+description = "FFI bindings for the geom library of FreeBSD"
 license = "BSD-2-Clause"
 repository = "https://github.com/fasync/fbsd-geom-sys"
 keywords = ["freebsd", "geom", "ffi", "sys"]
+categories = ["os::freebsd-apis", "os"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
