@@ -9,6 +9,7 @@ license = "BSD-2-Clause"
 repository = "https://github.com/fasync/fbsd-geom-sys"
 keywords = ["freebsd", "geom", "ffi", "sys"]
 categories = ["os::freebsd-apis", "os"]
+build = "build.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

@@ -8,6 +8,8 @@ fn main() {
         .join("bindings.rs");
     println!("cargo:rerun-if-env-changed=LLVM_CONFIG_PATH");
     println!("cargo:rustc-link-lib=geom");
+    println!("cargo:rerun-if-changed=/usr/include/libgeom.h");
+    println!("cargo:rerun-if-changed=/usr/include/sys/devicestat.h");
 
     Builder::default()
         .header("/usr/include/libgeom.h")
